@@ -6,7 +6,7 @@ PosicoesVetor::PosicoesVetor(int _y){
     y = _y;
     elementos = new int [y];
 }
-int PosicoesVetor::Posicoes(){
+void PosicoesVetor::Posicoes(){
     
     std::cout<<"Informe a posicao e o elemento do vetor:"<<std::endl;
     int i;
@@ -23,7 +23,7 @@ int PosicoesVetor::Posicoes(){
         else if(std::cin.fail()){
             throw "Elemento nao e um numero.";
         }
-        elementos[i-1] = elemento;
+        elementos[i] = elemento;
       
     }
     for(int i=0; i<y; i++){

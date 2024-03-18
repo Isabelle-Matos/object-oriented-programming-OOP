@@ -5,6 +5,6 @@ class PosicoesVetor{
 
     public:
     PosicoesVetor(int _y);
-    int Posicoes();
+    void Posicoes();
     ~PosicoesVetor();
 };
