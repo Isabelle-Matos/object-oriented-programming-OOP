@@ -33,7 +33,7 @@ void KeyWords::leitura(){
 
     for (m = p.begin(); m != p.end(); m++){
         if(m->second >=2){ 
-            std::cout<< m->first <<",";
+            std::cout<< m->first <<" ";
               cont++;
         }
         if(cont==3){
@@ -41,5 +41,5 @@ void KeyWords::leitura(){
         }     
   
     }
-           
+    std::cout << std::endl;
 }

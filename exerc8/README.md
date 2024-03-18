@@ -1,0 +1,2 @@
+## Exercício 1
+Imprime as 3 palavras-chave com base na quantidade que cada uma aparece. O programa considera a ordem em que essas palavras aparecem, portanto, na frase "A vaca malhada foi molhada por outra vaca molhada e malhada vida vida vida", o programa não imprime "vida" como palavra-chave, pois essa apareceu por último e o número de palavras-chave são 3.
