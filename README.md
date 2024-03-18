@@ -1,2 +1,2 @@
-# object-oriented-programming-OOP
-exercícios em c++ utilizando herança // inheritance exercises in c++
+# Programação orientada a objetos
+Exercícios em c++ utilizando herança // Inheritance exercises in c++
