@@ -5,7 +5,7 @@ int main()
 {
 	Rectangle rectangle;
 	rectangle.setlength(10.3);
-	rectangle.setwidth(21.0);
+	rectangle.setwidth(10.0);
 	cout << rectangle.getlength() << " "<< rectangle.getwidth() << endl;
 	cout<<rectangle.perimeter()<<endl;
 	cout <<rectangle.area()<<endl;
