@@ -3,8 +3,8 @@
 using namespace std;
 int main()
 {
-    ListaVetorInteiros L1;
-    ListaVetorInteiros *lista = &L1;
+
+    ListaVetorInteiros *lista = new ListaVetorInteiros;
     lista->inserir_lista(1);
     lista->inserir_lista(2);
     lista->inserir_lista(3);

@@ -4,14 +4,13 @@ using namespace std;
 
 int main()
 {
-   	Aluno aluno;
-	Aluno *a1 = &aluno;
+	Aluno *a1 = new Aluno;
 	a1->addnomematricula();
 	a1->addnotas(10.5);
 	a1->addnotas(9.8);
-        a1->addnotas(6.0);
-        a1->addnotas(7.9);
-        a1->addnotas(8.5);
+    a1->addnotas(6.0);
+    a1->addnotas(7.9);
+    a1->addnotas(8.5);
 
 	a1->calcularMediaAluno();
 	a1->imprimeInformacoesAluno();
